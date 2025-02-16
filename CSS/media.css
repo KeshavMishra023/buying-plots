@@ -1,0 +1,247 @@
+@media (max-width:767px){
+    .navbar{
+        display: block;
+        .wrap{
+            flex-wrap: nowrap;
+        }
+      }
+      .banner-img img{
+        margin-top: 113px;
+      }
+    .side-nav{
+        top: 26%;
+    }
+    .hero-section{
+        display: none !important;
+    }
+    .free-vist{
+        .input-1{
+            width: 100%;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+        }
+    }
+    .project-overview{
+        img{
+            width: 100%;
+        }
+
+    }
+    .more-plot{
+        .item-3 li{
+           flex-direction: row-reverse;
+           gap: 25px;
+        }
+        p{
+            text-align: left !important;
+        }
+    }
+    .registry{
+        .img-registry img{
+            width: 100%;
+        }
+        .home-clone{
+            flex-wrap: wrap;
+        }
+        table{
+            width: 90%;
+        }
+    }
+    .project-experience{
+        .site-map img{
+            width: 89%;
+        }
+        .locatin-map img{
+            width: 89%;
+        }
+    }
+    .FAQ{
+        h2{
+            padding: 0 !important;
+        }
+    }
+    .project-gallery{
+        .col-lg-3{
+            padding: 0;
+        }
+    }
+    .home-loan{
+        .book-item{
+            height: auto;
+            padding: 0 !important;
+        }
+        .col-lg-2{
+            padding: 0;
+        }
+    }
+    .footer{
+        p{
+            padding-right: 10px;
+        }
+        .col-2{
+            display: none;
+        }
+        .col-5{
+            width: 50%;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .navbar{
+        display: block;
+        .wrap{
+            flex-wrap: nowrap;
+        }
+      }
+      .banner-img img{
+        margin-top: 113px;
+      }
+    .side-nav{
+        top: 26%;
+    }
+    .hero-section{
+        display: none !important;
+    }
+    .side-nav{
+        top: 20%;
+    }
+    .hero-section{
+        .mooo{
+            display: none !important;
+        }
+    }
+    .free-vist{
+        .row{
+            flex-direction: column;
+        }
+        .col-lg-3{
+            width: 100%;
+        }
+        .input-1{
+            width: 100%;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+        }
+    }
+    .more-plot{
+        .flex-wrap{
+            flex-wrap: wrap !important;
+        }
+    }
+    .highlights{
+        .flex-wrap{
+            flex-wrap: nowrap !important;
+        }
+    }
+    .project-overview{
+        width: 100%;
+    }
+    .registry{
+        .img-registry img{
+            width: 50%;
+        }
+        /* .home-clone{
+             flex-wrap: wrap; 
+        } */
+        table{
+            width: 90%;
+        }
+    }
+    .home-loan{
+        .book-item{
+            height: 290px;
+        }
+    }
+    .project-gallery{
+        .col-sm-6{
+            width: 50%;
+        }
+    }
+    .schedule{
+        h2{
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        button{
+            font-size: 17px;
+            margin: 0 0 15px 0;
+            padding: 20px 7px;
+            width: 70%;
+        }
+        .btn-d{
+            width: 100%;
+        }
+        .flex-wrap{
+            flex-wrap: nowrap !important;
+        }
+        .gap-3{
+            gap: 10px !important;
+        }
+    }
+    .footer{
+        height: 70vh;
+    }
+}
+@media(min-width: 992px) and (max-width: 1133px){
+    .navbar{
+        display: block;
+        .wrap{
+            flex-wrap: nowrap;
+        }
+    }
+    .banner{
+        margin-top: 15vh !important;
+    }
+    .side-nav{
+        top: 26%;
+    }
+    .hero-section{
+        display: none !important;
+        .mooo{
+            display: none !important;
+        }
+    }
+    .navbar{
+        display: block;
+        .wrap{
+            flex-wrap: nowrap;
+        }
+      }
+      .banner-img img{
+        margin-top: 113px;
+      }
+    .side-nav{
+        top: 60%;
+    }
+    .hero-section{
+        display: none !important;
+    }
+    /* .mooo{
+        display: none !important;
+    } */
+}
+@media (min-width: 1134px) and (max-width: 1350px){
+    .hero-section{
+        .mooo ul{
+            gap: 1px  !important;
+            li a{
+                padding: 19px 7px !important;
+            }
+        }
+    }
+}
+@media(min-width: 1134px) and (max-width: 1900px){
+    .hero-section{
+        justify-content: space-between !important;
+        .img{
+            width: 100px;
+            a img{
+                width: 100% !important;
+            }
+        }
+    }
+}
