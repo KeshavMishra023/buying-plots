@@ -144,9 +144,6 @@
         .img-registry img{
             width: 50%;
         }
-        /* .home-clone{
-             flex-wrap: wrap; 
-        } */
         table{
             width: 90%;
         }
@@ -220,9 +217,6 @@
     .hero-section{
         display: none !important;
     }
-    /* .mooo{
-        display: none !important;
-    } */
 }
 @media (min-width: 1134px) and (max-width: 1350px){
     .hero-section{
